@@ -51,7 +51,7 @@ footer {
   text-decoration: underline;
 }
 .nav-link {
-  color: #000000;
+  color: var(--title-text-color);
 }
 .studia-page,
 .portfolio-page,
