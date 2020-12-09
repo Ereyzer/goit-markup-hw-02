@@ -9,6 +9,7 @@ body {
   line-height: 1.17;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+  background-color: var(--primari-white-color);
 }
 li {
   list-style-type: none;
@@ -30,6 +31,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   font-weight: 1.36;
+
   color: var(--primari-white-color);
 }
 h2,
@@ -57,14 +59,16 @@ button {
   color: var(--primari-white-color);
 }
 .contact {
-  color: var(--primary-text-color);
   font-size: 14px;
+
+  color: var(--primary-text-color);
 }
 /*орієнтування*/
 .studia-page,
 .portfolio-page {
-  color: var(--accent-color);
   text-decoration: underline;
+
+  color: var(--accent-color);
 }
 .nav-link {
   color: var(--title-text-color);
@@ -92,8 +96,9 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: #000000;
   letter-spacing: 0.03em;
+
+  color: #000000;
 }
 .logo-letters {
   color: var(--accent-color);
@@ -103,10 +108,11 @@ button {
 }
 /*кнопка замовити послугу*/
 .button-hero {
-  background-color: var(--accent-color);
-  color: var(--primari-white-color);
   font-size: 16px;
   line-height: 1.88;
+
+  background-color: var(--accent-color);
+  color: var(--primari-white-color);
 }
 .button-hero:hover,
 :focus {
@@ -117,15 +123,17 @@ button {
 }
 /*портфоліо*/
 .button-filter {
-  background-color: #f5f4fa;
   line-height: 1.63;
   font-weight: 500;
   font-size: 16px;
+
+  background-color: #f5f4fa;
 }
 .button-filter:active {
+  line-height: 1.63;
+
   background-color: var(--accent-color);
   color: var(--primari-white-color);
-  line-height: 1.63;
 }
 .portfolio-title {
   line-height: 2;
