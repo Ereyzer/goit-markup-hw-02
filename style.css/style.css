@@ -8,10 +8,18 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.17;
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+h1,
+.button-hero,
+.portfolio-title {
+  letter-spacing: 0.06em;
 }
 header {
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
 }
 h1 {
   font-weight: 900;
@@ -77,6 +85,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   color: #000000;
+  letter-spacing: 0.03em;
 }
 .logo-letters {
   color: var(--accent-color);
