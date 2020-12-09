@@ -90,6 +90,9 @@ footer {
 .logo-letters {
   color: var(--accent-color);
 }
+.logo-letters-waite {
+  color: var(--primari-white-color);
+}
 /*кнопка замовити послугу*/
 .button-hero {
   background-color: var(--accent-color);
