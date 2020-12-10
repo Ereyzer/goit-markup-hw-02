@@ -30,7 +30,8 @@ header {
 h1 {
   font-weight: 900;
   font-size: 44px;
-  font-weight: 1.36;
+  line-height: 1.36;
+  text-transform: uppercase;
 
   color: var(--primari-white-color);
 }
@@ -38,6 +39,7 @@ h2,
 h3,
 h4 {
   font-weight: 700;
+  text-transform: uppercase;
 
   color: var(--title-text-color);
 }
@@ -66,7 +68,7 @@ button {
 /*орієнтування*/
 .studia-page,
 .portfolio-page {
-  text-decoration: underline;
+  text-decoration: none;
 
   color: var(--accent-color);
 }
@@ -139,11 +141,14 @@ button {
   line-height: 2;
   font-weight: 700;
   font-size: 18px;
+  text-transform: none;
 }
 .portfolio-paragraph {
   line-height: 1.88;
   font-weight: 400;
   font-size: 16px;
+
+  color: var(--primary-text-color);
 }
 .portfolio-link {
   background-color: #eeeeee;
