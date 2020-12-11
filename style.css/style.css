@@ -32,6 +32,7 @@ h1 {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
+  width: 600px;
 
   color: var(--primari-white-color);
 }
@@ -39,7 +40,6 @@ h2,
 h3,
 h4 {
   font-weight: 700;
-  text-transform: uppercase;
 
   color: var(--title-text-color);
 }
@@ -94,19 +94,15 @@ button {
   /* тут будуть зміни */
   background-color: #2f303a;
 }
-.hero-box {
-  box-sizing: border-box;
-  border: 0px;
-  width: 600px;
 
-  text-align: center;
-}
 /* index*/
 .text-paragrph {
   line-height: 1.71;
   font-weight: 400;
 }
-
+.subtitle {
+  text-transform: uppercase;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
