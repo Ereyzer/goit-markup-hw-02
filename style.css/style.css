@@ -43,6 +43,9 @@ h4 {
 
   color: var(--title-text-color);
 }
+h2 {
+  font-size: 36px;
+}
 h3,
 .text-paragrph {
   font-size: 14px;
@@ -81,12 +84,22 @@ button {
   font-weight: 500;
   font-size: 14px;
 }
+.team-name {
+  text-transform: capitalize;
+}
 
-.hat {
+.hero {
   width: 1600px;
   height: 600px;
   /* тут будуть зміни */
   background-color: #2f303a;
+}
+.hero-box {
+  box-sizing: border-box;
+  border: 0px;
+  width: 600px;
+
+  text-align: center;
 }
 /* index*/
 .text-paragrph {
